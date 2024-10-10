@@ -742,10 +742,11 @@
     }
     
 
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 1400px) {
         body {
             font-size: 14px;
             line-height: 1.4;
+            zoom: 2;
         }
     
         .main-content {
@@ -769,7 +770,9 @@
     
         .cont-info {
             text-align: center;
+            font-size: 40px;
         }
+
     
         .cont-info h2 {
             font-size: 18px;
@@ -986,5 +989,14 @@
     
         .navbar-buttons {
             display: none;
+        }
+    }
+
+    @media screen and (max-width: 700px) {
+        body {
+            zoom: 3;
+        }
+        .calendar th, .calendar td {
+            font-size: 7px;
         }
     }
